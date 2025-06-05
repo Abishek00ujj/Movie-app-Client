@@ -56,26 +56,7 @@ print(response.json())`,
 $response = file_get_contents('${apiBaseUrl}');
 $data = json_decode($response, true);
 print_r($data);
-?>`,
-  Go: `// Using Go net/http package
-package main
-
-import (
-  "fmt"
-  "io/ioutil"
-  "net/http"
-)
-
-func main() {
-  resp, err := http.Get("${apiBaseUrl}")
-  if err != nil {
-    panic(err)
-  }
-  defer resp.Body.Close()
-
-  body, _ := ioutil.ReadAll(resp.Body)
-  fmt.Println(string(body))
-}`,
+?>`
 };
 
 export default function ApiPromoPage() {
