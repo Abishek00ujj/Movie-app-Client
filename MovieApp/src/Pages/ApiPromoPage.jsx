@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import { Rocket, Globe, Server } from "lucide-react";
-import { Button } from "../components/button";
+import { Button } from "../components/Button"
 import { motion } from "framer-motion";
 
 const demoMovie = {
