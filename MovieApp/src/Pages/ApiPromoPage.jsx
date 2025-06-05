@@ -131,7 +131,7 @@ export default function ApiPromoPage() {
             Endpoints:
             <code className="bg-gray-800 px-2 py-1 rounded ml-2">/api/v1/movies</code>,
             <code className="bg-gray-800 px-2 py-1 rounded ml-2">
-              /api/v1/movies/&lt;imdbId&gt;
+              /api/v1/movies/imdbId;
             </code>
           </p>
         </motion.div>
