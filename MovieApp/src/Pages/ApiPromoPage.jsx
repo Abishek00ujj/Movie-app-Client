@@ -150,7 +150,7 @@ export default function ApiPromoPage() {
             Endpoints:
             <code className="bg-gray-800 px-2 py-1 rounded ml-2">/api/v1/movies</code>,
             <code className="bg-gray-800 px-2 py-1 rounded ml-2">
-              /api/v1/movies/imdbId/&lt;id&gt;
+              /api/v1/movies/&lt;imdbId&gt;
             </code>
           </p>
         </motion.div>
@@ -260,7 +260,7 @@ export default function ApiPromoPage() {
       </motion.div>
 
       <footer className="pt-6 border-t border-white/10 text-gray-500 text-sm mt-12 max-w-5xl w-full text-center">
-        Made with ❤️ by Abishek — Open Source Forever
+        Made with ❤️ by <span className="text-blue-400"><a href="https://codewithabi.vercel.app">Abishek</a></span> — Open Source Forever
       </footer>
     </div>
   );
