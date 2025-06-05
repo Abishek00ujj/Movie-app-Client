@@ -127,13 +127,17 @@ export default function ApiPromoPage() {
           >
             Start Using API ➜
           </Button>
-          <p className="mt-2 text-sm text-gray-400">
-            Endpoints:
-            <code className="bg-gray-800 px-2 py-1 rounded ml-2">/api/v1/movies</code>,
-            <code className="bg-gray-800 px-2 py-1 rounded ml-2">
-              /api/v1/movies/imdbId;
-            </code>
-          </p>
+          <div className="mt-2 text-sm text-gray-400">
+  <p>Endpoints:</p>
+  <div className="mt-1 space-y-1">
+    <code className="block bg-gray-800 px-2 py-1 rounded w-fit">
+      /api/v1/movies
+    </code>
+    <code className="block bg-gray-800 px-2 py-1 rounded w-fit">
+      /api/v1/movies/imdbId
+    </code>
+  </div>
+</div>
         </motion.div>
 
         <motion.div
